@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\main",
+    "\\src\\main\\java",
+    "\\src\\main\\java\\com",
+    "\\src\\main\\java\\com\\spring",
+    "\\src\\main\\java\\com\\spring\\agendalive",
+    "\\src\\main\\resources",
+    "\\src\\test",
+    "\\src\\test\\java",
+    "\\src\\test\\java\\com",
+    "\\src\\test\\java\\com\\spring"
+  ],
+  "SelectedNode": "\\src\\main\\resources\\application.properties",
+  "PreviewInSolutionExplorer": false
+}

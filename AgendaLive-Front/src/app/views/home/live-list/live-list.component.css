@@ -2,11 +2,25 @@
   margin-bottom: 48px;
 }
 
-.example-card {
-  max-width: 400px;
+.mat-card-live{
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 4px 3px 6px / 2px 4px;
+  padding-top: 15px;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-bottom: 0%;
+  margin: 5px;
 }
 
-.example-header-image {
-  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-  background-size: cover;
+.mat-card-title-live{
+  padding-top: 0%;
+  padding-left: 10px;
+  padding-right: 15px;
+  margin-bottom: 0%;
+  min-height: 70px;
+}
+
+.mat-chip-date{
+  background-color: #90CAF9 !important;
+  color: black !important;
 }

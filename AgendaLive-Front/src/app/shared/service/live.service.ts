@@ -1,6 +1,7 @@
 import { HttpHeaders, HttpClientModule, HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { Live } from '../model/live.model';
 import { ResponsePageable } from '../model/responsePageable.model';
 
 @Injectable({
@@ -22,5 +23,9 @@ export class LiveService {
 
   public GetLivesWithFlag(flag: string): Observable<ResponsePageable> {
     return this.httpClient.get<ResponsePageable>(this.apiUrl + '?flag=' + flag);
+  }
+
+  public postLives(live: any): Observable<Live>{
+    return this.httpClient.post<any>(this.apiUrl, live, this.httpOptions);
   }
 }
